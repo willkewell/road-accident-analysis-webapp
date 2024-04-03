@@ -1,0 +1,32 @@
+.table__container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid var(--color-primary);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+table {
+    background: var(--color-bg-variant);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid var(--color-primary);
+    padding: 8px;
+}
+
+table thead {
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary-variant);
+    position: sticky;
+    top: 0px;
+    margin: 0 0 0 0;
+}
+
+table tr:hover {
+    background: var(--color-white);
+}

@@ -1,0 +1,58 @@
+.popUp__container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40,40,40,0.5);
+    border: 1px solid var(--color-primary);
+
+    z-index: 2;
+}
+
+.popUp__inner {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    height: fit-content;
+    max-width: 640px;
+    max-height: 720px;
+    background-color: var(--color-bg);
+    border-radius: 0.5rem;
+}
+
+.popUp__inner-text {
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.popUp__inner-text h2 {
+    text-align: center;
+}
+
+.popUp-close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+
+.popUp-close-btn:hover {
+    background-color: var(--color-primary-variant);
+}
+
+.popUp__inner-text li {
+    display: list-item;
+    list-style-type: disc;
+}
+
+.popUp-github {
+    text-align: center;
+}
