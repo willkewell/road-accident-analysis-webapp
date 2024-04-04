@@ -23,7 +23,7 @@ const PopUp = (props) => {
               <li>Specific field data can be searched using the global filter at the bottom of the table</li>
             </ul>
             <div className="popUp-github">
-              <a href=''><b>View project on GitHub</b></a>
+              <a href='https://github.com/willkewell/road-accident-analysis-webapp'><b>View project on GitHub</b></a>
             </div>
           </div>
         </div>
