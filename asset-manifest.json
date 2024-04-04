@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/road-accident-analysis-webapp/static/css/main.19e744fd.css",
-    "main.js": "/road-accident-analysis-webapp/static/js/main.673f5e31.js",
+    "main.js": "/road-accident-analysis-webapp/static/js/main.909ebb3f.js",
     "static/media/Traffic_20accidents_2019_Leeds.csv": "/road-accident-analysis-webapp/static/media/Traffic_20accidents_2019_Leeds.e6b273c9efe212292f92.csv",
     "static/media/marker.png": "/road-accident-analysis-webapp/static/media/marker.64cdcb0ef97818161310.png",
     "index.html": "/road-accident-analysis-webapp/index.html",
     "main.19e744fd.css.map": "/road-accident-analysis-webapp/static/css/main.19e744fd.css.map",
-    "main.673f5e31.js.map": "/road-accident-analysis-webapp/static/js/main.673f5e31.js.map"
+    "main.909ebb3f.js.map": "/road-accident-analysis-webapp/static/js/main.909ebb3f.js.map"
   },
   "entrypoints": [
     "static/css/main.19e744fd.css",
-    "static/js/main.673f5e31.js"
+    "static/js/main.909ebb3f.js"
   ]
 }
